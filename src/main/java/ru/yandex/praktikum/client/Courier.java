@@ -1,4 +1,4 @@
-package praktikum.client;
+package ru.yandex.praktikum.client;
 
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.given;
 public class Courier extends RestClient {
 
     @Step("Send POST Request to /api/v1/courier - create Courier")
-    public ValidatableResponse create(CourierRequest courierRequest) {
+    public ValidatableResponse createCourier(CourierRequest courierRequest) {
         return given()
                 .spec(getBaseRequestSpec())
                 .body(courierRequest)

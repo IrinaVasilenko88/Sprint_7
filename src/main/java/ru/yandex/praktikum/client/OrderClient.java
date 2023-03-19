@@ -1,4 +1,4 @@
-package praktikum.client;
+package ru.yandex.praktikum.client;
 
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;

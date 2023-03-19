@@ -1,4 +1,4 @@
-package praktikum.model;
+package ru.yandex.praktikum.model;
 
 public class LoginRequest {
     private String login;

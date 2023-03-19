@@ -23,7 +23,7 @@ public class CourierLoginTest {
     public void setUp() {
         courier = new Courier();
         courierRequest = getRandomCourier();
-        courier.create(courierRequest).assertThat().statusCode(SC_CREATED)
+        courier.createCourier(courierRequest).assertThat().statusCode(SC_CREATED)
                 .and().body("ok", equalTo(true));
     }
 

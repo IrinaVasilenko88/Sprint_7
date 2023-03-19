@@ -1,4 +1,4 @@
-package praktikum.client;
+package ru.yandex.praktikum.client;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;

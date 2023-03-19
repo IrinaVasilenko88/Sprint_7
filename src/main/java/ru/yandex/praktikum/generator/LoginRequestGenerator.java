@@ -1,4 +1,4 @@
-package praktikum.generator;
+package ru.yandex.praktikum.generator;
 
 import ru.yandex.praktikum.model.CourierRequest;
 import ru.yandex.praktikum.model.LoginRequest;

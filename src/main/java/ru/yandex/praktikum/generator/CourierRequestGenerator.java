@@ -1,4 +1,4 @@
-package praktikum.generator;
+package ru.yandex.praktikum.generator;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import ru.yandex.praktikum.model.CourierRequest;
